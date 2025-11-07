@@ -1,0 +1,15 @@
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\bin\Debug\net8.0\Code-P_114-CouteauSuisse.exe
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\bin\Debug\net8.0\Code-P_114-CouteauSuisse.deps.json
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\bin\Debug\net8.0\Code-P_114-CouteauSuisse.runtimeconfig.json
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\bin\Debug\net8.0\Code-P_114-CouteauSuisse.dll
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\bin\Debug\net8.0\Code-P_114-CouteauSuisse.pdb
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.GeneratedMSBuildEditorConfig.editorconfig
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.AssemblyInfoInputs.cache
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.AssemblyInfo.cs
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.csproj.CoreCompileInputs.cache
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.sourcelink.json
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.dll
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\refint\Code-P_114-CouteauSuisse.dll
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.pdb
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\Code-P_114-CouteauSuisse.genruntimeconfig.cache
+E:\I-114\P_114-CouteauSuisse\Code-P_114-CouteauSuisse\Code-P_114-CouteauSuisse\obj\Debug\net8.0\ref\Code-P_114-CouteauSuisse.dll
