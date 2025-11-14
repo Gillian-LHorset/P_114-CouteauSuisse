@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|e:\\i-114\\p_114-couteausuisse\\code-p_114-couteausuisse\\code-p_114-couteausuisse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|solutionrelative:code-p_114-couteausuisse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|e:\\i-114\\p_114-couteausuisse\\code-p_114-couteausuisse\\code-p_114-couteausuisse\\baseconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|solutionrelative:code-p_114-couteausuisse\\baseconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|e:\\i-114\\p_114-couteausuisse\\code-p_114-couteausuisse\\code-p_114-couteausuisse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|solutionrelative:code-p_114-couteausuisse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E64EFCA-DBA8-4420-9F9C-C9C4C9F179CC}|Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse.csproj|e:\\i-114\\p_114-couteausuisse\\code-p_114-couteausuisse\\code-p_114-couteausuisse\\morseconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseConverter.cs",
-              "DocumentMoniker": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\BaseConverter.cs",
-              "RelativeDocumentMoniker": "Code-P_114-CouteauSuisse\\BaseConverter.cs",
-              "ToolTip": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\BaseConverter.cs",
-              "RelativeToolTip": "Code-P_114-CouteauSuisse\\BaseConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Program.cs",
+              "RelativeDocumentMoniker": "Code-P_114-CouteauSuisse\\Program.cs",
+              "ToolTip": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Program.cs",
+              "RelativeToolTip": "Code-P_114-CouteauSuisse\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T08:23:04.979Z",
+              "WhenOpened": "2025-11-07T08:08:05.462Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Code-P_114-CouteauSuisse\\MorseConverter.cs",
               "ToolTip": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\MorseConverter.cs",
               "RelativeToolTip": "Code-P_114-CouteauSuisse\\MorseConverter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T08:17:46.966Z",
               "EditorCaption": ""
@@ -53,14 +53,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Program.cs",
-              "RelativeDocumentMoniker": "Code-P_114-CouteauSuisse\\Program.cs",
-              "ToolTip": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Program.cs",
-              "RelativeToolTip": "Code-P_114-CouteauSuisse\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Title": "BaseConverter.cs",
+              "DocumentMoniker": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\BaseConverter.cs",
+              "RelativeDocumentMoniker": "Code-P_114-CouteauSuisse\\BaseConverter.cs",
+              "ToolTip": "E:\\I-114\\P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\Code-P_114-CouteauSuisse\\BaseConverter.cs",
+              "RelativeToolTip": "Code-P_114-CouteauSuisse\\BaseConverter.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwF0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T08:08:05.462Z",
+              "WhenOpened": "2025-11-14T08:23:04.979Z",
               "EditorCaption": ""
             }
           ]
