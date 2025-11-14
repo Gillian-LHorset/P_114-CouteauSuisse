@@ -1,4 +1,6 @@
-﻿namespace Code_P_114_CouteauSuisse
+﻿using System.Drawing;
+
+namespace Code_P_114_CouteauSuisse
 {
     internal class Program
     {
@@ -18,55 +20,77 @@
                 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 
                 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', 
                 '4', '5', '6', '7', '8', '9', ' '
-            };
+            };            
+                int y = 0;
+                string userPhrase;
 
-            int y = 0;
-            string userPhrase;
+                bool isReplaying = false;
 
-            bool isKnowChar = false;
-            bool aCharIsUnknow = false;
+                bool isKnowChar = true;
+                bool aCharIsUnknow = false;
 
-            Console.WriteLine("Merci d'enter une phrase sans accents et caratères spéciaux.");
 
-            userPhrase = Console.ReadLine();
-            while (userPhrase.Length < 1)
+                ConsoleKeyInfo keyPress;
+            do
             {
-                Console.WriteLine("Merci d'entrer une phrase.");
-                userPhrase = Console.ReadLine();
-            }
-
-            Console.Clear();
-
-            Console.CursorVisible = false;
-
-            Console.WriteLine($"Votre phrase était " + '"' + userPhrase + '"' + "\n");
-            Console.WriteLine("Votre phrase en morse donne : ");
-            foreach (char lettreInPhrase in userPhrase.ToUpper())
-            {
+                isReplaying = false;
+                aCharIsUnknow = false;
                 isKnowChar = false;
+                Console.WriteLine("Merci d'enter une phrase sans accents et caratères spéciaux.");
 
-                for (int i = 0; i < lettreArray.Length; i++)
+                userPhrase = Console.ReadLine();
+                while (userPhrase.Length < 1)
                 {
-                    if (CompareChar(lettreInPhrase, lettreArray[i]))
+                    Console.WriteLine("Merci d'entrer une phrase.");
+                    userPhrase = Console.ReadLine();
+                }
+
+                Console.Clear();
+
+                Console.CursorVisible = false;
+
+                Console.WriteLine($"Votre phrase était " + '"' + userPhrase + '"' + "\n");
+                Console.WriteLine("Votre phrase en morse donne : ");
+                foreach (char lettreInPhrase in userPhrase.ToUpper())
+                {
+                    isKnowChar = false;
+
+                    for (int i = 0; i < lettreArray.Length; i++)
                     {
-                        Console.Write(morseArray[i] + " ");
-                        isKnowChar = true;
-                        break;
+                        if (CompareChar(lettreInPhrase, lettreArray[i]))
+                        {
+                            Console.Write(morseArray[i] + " ");
+                            isKnowChar = true;
+                            break;
+                        }
+                    }
+                    if (!isKnowChar)
+                    // si le char n'est pas présent dans la liste de lettre
+                    {
+                        // écrit un ?
+                        Console.Write("? ");
+                        // signale qu'un caractère inconnue à été détecté
+                        aCharIsUnknow = true;
                     }
                 }
-                if (!isKnowChar)
-                // si le char n'est pas présent dans la liste de lettre
+                if (aCharIsUnknow)
                 {
-                    // écrit un ?
-                    Console.Write("? ");
-                    // signale qu'un caractère inconnue à été détecté
-                    aCharIsUnknow = true;
+                    Console.WriteLine("\nUn ou plusieurs caratères de sont pas pris en charge.\nLes caractères inconnues ont été remplacer par le symbole " + '"' + '?' + '"' + '.');
                 }
-            }
 
-            Console.WriteLine("\nUn ou plusieurs caratères de sont pas pris en charge.\nLes caractères inconnues ont été remplacer par le symbole " + '"' + '?' + '"' + '.');
+                Console.Write("\n\n\nAppuyez sur la touche");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(" enter ");
+                Console.ResetColor();
+                Console.Write("pour convertire une nouvelle phrase.");
 
-            Console.ReadKey();
+                keyPress = Console.ReadKey(true);
+                if (keyPress.Key == ConsoleKey.Enter)
+                {
+                    isReplaying = true;
+                }
+                    Console.Clear();
+            } while (isReplaying);
         }
 
         public static bool CompareChar(char firstLettre, char secondLettre)
