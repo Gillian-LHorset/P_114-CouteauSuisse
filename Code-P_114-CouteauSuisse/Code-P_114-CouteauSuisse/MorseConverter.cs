@@ -33,7 +33,6 @@ namespace Code_P_114_CouteauSuisse
             bool isKnowChar = true;
             bool aCharIsUnknow = false;
 
-
             ConsoleKeyInfo keyPress;
             do
             {
