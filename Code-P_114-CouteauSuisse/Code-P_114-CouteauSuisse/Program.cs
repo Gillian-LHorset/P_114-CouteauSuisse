@@ -1,14 +1,8 @@
-﻿using System.Drawing;
-
-namespace Code_P_114_CouteauSuisse
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+﻿namespace Code_P_114_CouteauSuisse {
+    internal class Program {
+        static void Main(string[] args) {
             ConsoleKeyInfo keyPress;
-            do
-            {
+            do {
                 Console.CursorVisible = false;
                 Console.WriteLine("\n\n\t═══ Veuillez choisir un progamme ═══");
                 Console.WriteLine("\n\n\t1. Convertir du texte en Morse");
@@ -16,8 +10,7 @@ namespace Code_P_114_CouteauSuisse
                 Console.WriteLine("\n\t3. ");
                 Console.WriteLine("\n\n\tAppuyez sur Escape pour quitter le progamme");
                 keyPress = Console.ReadKey(true);
-                    switch (keyPress.Key)
-                {
+                switch (keyPress.Key) {
                     case ConsoleKey.D1:
                         MorseConverter morseConverter = new MorseConverter();
                         break;
@@ -35,7 +28,7 @@ namespace Code_P_114_CouteauSuisse
                         break;
                 }
             } while (true);
-        }        
+        }
     }
 }
 

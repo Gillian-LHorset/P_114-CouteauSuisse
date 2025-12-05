@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Code_P_114_CouteauSuisse
-{
-    internal class MorseConverter
-    {
-        public MorseConverter()
-        {
+﻿namespace Code_P_114_CouteauSuisse {
+    internal class MorseConverter {
+        public MorseConverter() {
             string[] morseArray = new string[]
             {
                 ".-",   "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---",
@@ -34,16 +25,14 @@ namespace Code_P_114_CouteauSuisse
             bool aCharIsUnknow = false;
 
             ConsoleKeyInfo keyPress;
-            do
-            {
+            do {
                 isReplaying = false;
                 aCharIsUnknow = false;
                 isKnowChar = false;
                 Console.WriteLine("Merci d'enter une phrase sans accents et caratères spéciaux.");
 
                 userPhrase = Console.ReadLine();
-                while (userPhrase.Length < 1)
-                {
+                while (userPhrase.Length < 1) {
                     Console.WriteLine("Merci d'entrer une phrase.");
                     userPhrase = Console.ReadLine();
                 }
@@ -54,14 +43,11 @@ namespace Code_P_114_CouteauSuisse
 
                 Console.WriteLine($"Votre phrase était " + '"' + userPhrase + '"' + "\n");
                 Console.WriteLine("Votre phrase en morse donne : ");
-                foreach (char lettreInPhrase in userPhrase.ToUpper())
-                {
+                foreach (char lettreInPhrase in userPhrase.ToUpper()) {
                     isKnowChar = false;
 
-                    for (int i = 0; i < lettreArray.Length; i++)
-                    {
-                        if (CompareChar(lettreInPhrase, lettreArray[i]))
-                        {
+                    for (int i = 0; i < lettreArray.Length; i++) {
+                        if (CompareChar(lettreInPhrase, lettreArray[i])) {
                             Console.Write(morseArray[i] + " ");
                             isKnowChar = true;
                             break;
@@ -76,8 +62,7 @@ namespace Code_P_114_CouteauSuisse
                         aCharIsUnknow = true;
                     }
                 }
-                if (aCharIsUnknow)
-                {
+                if (aCharIsUnknow) {
                     Console.WriteLine("\nUn ou plusieurs caratères de sont pas pris en charge.\nLes caractères inconnues ont été remplacer par le symbole " + '"' + '?' + '"' + '.');
                 }
 
@@ -88,22 +73,17 @@ namespace Code_P_114_CouteauSuisse
                 Console.Write("pour convertire une nouvelle phrase.");
 
                 keyPress = Console.ReadKey(true);
-                if (keyPress.Key == ConsoleKey.Enter)
-                {
+                if (keyPress.Key == ConsoleKey.Enter) {
                     isReplaying = true;
                 }
                 Console.Clear();
             } while (isReplaying);
         }
 
-        public static bool CompareChar(char firstLettre, char secondLettre)
-        {
-            if (firstLettre == secondLettre)
-            {
+        public static bool CompareChar(char firstLettre, char secondLettre) {
+            if (firstLettre == secondLettre) {
                 return true;
-            }
-            else
-            {
+            } else {
                 return false;
             }
         }
