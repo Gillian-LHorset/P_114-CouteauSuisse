@@ -4,11 +4,13 @@
             ConsoleKeyInfo keyPress;
             do {
                 Console.CursorVisible = false;
+
                 Console.WriteLine("\n\n\t═══ Veuillez choisir un progamme ═══");
                 Console.WriteLine("\n\n\t1. Convertir du texte en Morse");
                 Console.WriteLine("\n\t2. Convertir des nombres entre différentes bases (Décimal <> Binaire <> Octal)");
                 Console.WriteLine("\n\t3. ");
                 Console.WriteLine("\n\n\tAppuyez sur Escape pour quitter le progamme");
+
                 keyPress = Console.ReadKey(true);
                 switch (keyPress.Key) {
                     case ConsoleKey.D1:

@@ -13,6 +13,7 @@
             Console.WriteLine("\n\t2. Binaire > Décimal");
             Console.WriteLine("\n\t3. Binaire > Octal");
             Console.WriteLine("\n\t4. Octal > Binaire");
+            Console.WriteLine("\n\n\tAppuyez sur Escape pour revenir à la liste de choix");
 
             // choisir quel type de convertion
             do {
@@ -33,6 +34,9 @@
                     case ConsoleKey.D4:
                         whichChoise = 4;
                         break;
+                    case ConsoleKey.Escape:
+                        Console.Clear();
+                        return;
                 }
             } while (whichChoise > 4 || whichChoise < 1);
 
@@ -42,11 +46,10 @@
 
             switch (whichChoise) {
                 case 1:
-                    valueToConvert = ConvertValueToInt(false);
                     // décimale vers binaire
                     Console.WriteLine("\n\tDécimal > Binaire");
-                    Console.WriteLine("\n\n\tVotre valeur en décimal : " + valueToConvert);
-                    Console.WriteLine("\n\n\tVotre valeur en binaire : " + IntBaseConverter(valueToConvert, 2));
+                    Console.WriteLine("\n\n\tVeuillez entrer un nombre Décimal.");
+                    Console.WriteLine("\n\n\tVotre valeur en binaire : " + IntBaseConverter(ConvertAnyToDecimal(10), 2));
                     break;
                 case 2:
                     // binaire vers décimal
@@ -69,6 +72,8 @@
                     Console.WriteLine("\n\n\tVotre valeur en binaire : " + IntBaseConverter(Convert.ToInt32(ConvertAnyToDecimal(8)), 2));
                     break;
             }
+
+            Console.CursorVisible = false;
 
             Console.WriteLine("\n\n\tVoulez vous reconvertir un nombre ?");
             Console.WriteLine("\n\tO = Oui | N = Non");
