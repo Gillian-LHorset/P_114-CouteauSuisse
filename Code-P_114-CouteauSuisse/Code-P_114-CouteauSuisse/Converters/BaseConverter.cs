@@ -108,7 +108,9 @@
 
             Console.SetCursorPosition(cursorPosition[0], cursorPosition[1]);
             isCorrectValue = Int32.TryParse(Console.ReadLine(), out valueToConvert);
+            // if the value enter is octal
             if (isOctal) {
+                // verify is all of the number is can be an octal number
                 foreach (Char c in Convert.ToString(valueToConvert)) {
                     if (c == '8' || c == '9') {
                         isCorrectValue = false;
@@ -124,7 +126,9 @@
                 Console.SetCursorPosition(cursorPosition[0], cursorPosition[1]);
 
                 isCorrectValue = Int32.TryParse(Console.ReadLine(), out valueToConvert);
+                // if the value enter is octal
                 if (isOctal) {
+                    // verify is all of the number is can be an octal number
                     foreach (Char c in Convert.ToString(valueToConvert)) {
                         if (c == '8' || c == '9') {
                             isCorrectValue = false;
